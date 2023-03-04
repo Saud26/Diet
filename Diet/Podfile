@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Diet' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Diet
+pod 'IQKeyboardManagerSwift'
+pod 'Alamofire', '~> 4.8.0' 
+pod 'SwiftyJSON'
+pod "KRProgressHUD"
+pod 'SDWebImage'
+pod 'YouTubePlayer'
+pod 'MFCard'
+pod 'GoogleSignIn'
+pod 'FacebookCore'
+pod 'FacebookLogin'
+end
